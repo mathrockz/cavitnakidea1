@@ -12,7 +12,7 @@ body {
   }
   
   .floating-images img {
-    width: 200%;
+    width: 100%;
     height: auto;
     border-radius: 10px;
     object-fit: cover;
