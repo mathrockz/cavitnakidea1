@@ -41,6 +41,7 @@
 </style>
 </head>
 <body>
+  <audio id="hover-sound" src="audio/soft (pluck.m4a" preload="auto"></audio>
 
   <div id="logo-container">
     <img src="images/logo-01.png" id="logo">
@@ -59,6 +60,7 @@
   <script>
     const images = document.querySelectorAll('.floating-images a');
 
+//FLOATIMG
 images.forEach(image => {
   const x = Math.random() * window.innerWidth;
   const y = Math.random() * window.innerHeight;
